@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+double numero, suma;
+while (numero >=o){
+cout << "ingrese un numero" << enl;
+cout << "ingrese numero negativo para salir" << endl;
+cin >> numero;
+if(numero >= 0){
+suma = Suma + numero;
+}
+}
+cout << "la suma es: " << suma;
+}
