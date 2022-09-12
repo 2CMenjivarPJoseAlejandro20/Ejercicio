@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+float calcularperimetro(float);//prototipo de funcion 
+
+int main(){
+double lado;
+cout  << " ingrese el lado del cuadro: " << endl;
+cin >> lado;
+cout << "el perimetro del cuadro es: "<< calcularperimetro(lado) ;
+return 0;
+}
+
+float calcular perimetro(float lado){
+double perimetro = lado * 4;
+return perimetro;
+}
